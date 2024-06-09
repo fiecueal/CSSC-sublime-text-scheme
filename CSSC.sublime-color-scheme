@@ -28,7 +28,7 @@
       "foreground": "purple",
     },
     {
-      "scope": "constant.character.escape",
+      "scope":      "constant.character.escape | punctuation.section.interpolation",
       // "foreground": "darkgreen",
       "background": "color(yellowgreen lightness(70%))",
     },
@@ -40,7 +40,7 @@
     {
       "scope": "entity - entity.name.tag - entity.other.attribute-name",
       "foreground": "royalblue",
-      // "background": "aliceblue",
+      "background": "aliceblue",
     },
     {
       "scope": "entity.name.tag | entity.other.attribute-name",
