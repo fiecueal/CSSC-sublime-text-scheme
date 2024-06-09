@@ -64,13 +64,13 @@
       "foreground": "chocolate",
     },
     {
-      "scope":      "punctuation - punctuation.section - punctuation.definition",
+      "scope":      "punctuation - punctuation.section",
       "foreground": "grey",
     },
-    {
-      "scope":      "punctuation.definition.variable",
-      "background": "lemonchiffon",
-    },
+    // {
+    //   "scope":      "punctuation.definition.variable",
+    //   "background": "lemonchiffon",
+    // },
     {
       "scope":      "string - string.regexp",
       // "foreground": "darkgreen",
@@ -94,7 +94,7 @@
       "font_style": "underline",
     },
     // { // turns code into rainbow vomit
-    //   "scope": "source - punctuation - keyword",
+    //   "scope": "source - punctuation - keyword - string",
     //   "foreground": ["darkblue", "darkred"],
     // },
     // { // TODO
