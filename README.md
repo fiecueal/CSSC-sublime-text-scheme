@@ -1,6 +1,6 @@
 # CSSColors Color Scheme
 
-An attempt at making a functional light color scheme while limiting the used colors to the [defined CSS/HTML colors.](https://developer.mozilla.org/en-US/docs/Web/CSS/named-color#value).
+An attempt at making a functional light color scheme while limiting the used colors to the [CSS named colors](https://developer.mozilla.org/en-US/docs/Web/CSS/named-color).
 
 The only times the colors were modified are for:
 1. **line highlight** lowered alpha so text backgrounds remain visible on the current line

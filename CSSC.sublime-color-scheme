@@ -3,7 +3,7 @@
     "background":     "whitesmoke",
     "foreground":     "black",
     "caret":          "black",
-    "line_highlight": "color(grey alpha(0.1))",
+    "line_highlight": "color(grey a(0.1))",
 
     // "line_diff_width": "4",
     "line_diff_added":    "limegreen",
@@ -15,9 +15,9 @@
     "brackets_options":            "bold glow foreground",
     "bracket_contents_options":    "bold glow foreground",
     "tags_options":                "bold glow foreground",
-    "brackets_foreground":         "darkorange",
-    "bracket_contents_foreground": "darkorange",
-    "tags_foreground":             "darkorange",
+    "brackets_foreground":         "magenta",
+    "bracket_contents_foreground": "magenta",
+    "tags_foreground":             "magenta",
   },
   "rules": [
     {
@@ -33,7 +33,7 @@
     {
       "scope":      "constant.character.escape | punctuation.section.interpolation",
       // "foreground": "darkgreen",
-      "background": "color(yellowgreen lightness(70%))",
+      "background": "color(yellowgreen l(70%))",
     },
     {
       "scope":      "constant.other",
@@ -55,8 +55,11 @@
       "background": "lightcoral",
     },
     {
+      "scope": "keyword.declaration, keyword.control - keyword.control.flow",
+      "background": "white",
+    },
+    {
       "scope":      "keyword.control.flow",
-      // "foreground": "darkgoldenrod",
       "background": "bisque",
     },
     {
